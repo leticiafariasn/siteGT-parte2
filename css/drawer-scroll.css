@@ -1,0 +1,22 @@
+  /* Quando o checkbox estiver marcado, mostra a sidebar */
+  .menu-toggle:checked + .menu-toggle-btn + .sidebar {
+    transform: translateX(0);
+  }
+  
+  /* Botão de menu */
+  .menu-toggle-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Esconde o checkbox controlador */
+  .menu-toggle {
+    display: none;
+  }
